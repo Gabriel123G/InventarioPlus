@@ -12,9 +12,9 @@
     <header>
         <nav>
             <ul>
-                <li><a class="nav-a" href="">Login</a></li>
-                <li class="nav-a">|</li>
-                <li><a class="nav-a" href="">Sign Up</a></li>
+                <li><button class="nav-button" >Login</button></li>
+                <li class="nav-button">|</li>
+                <li><button class="nav-button">Sign Up</button></li>
             </ul>
         </nav>
     </header>
@@ -45,26 +45,26 @@
 
             <section class="signup-container">
                 <form action="" method="post">
-                    <div>
+                    <div class="title">
                         <h3>Sign Up</h3>
                     </div>
-
-                    <div>
-                        <div>
-                            <label for="user">User</label>
+                    <div class="data-container">
+                         <div class="data">
+                            <label for="user">User</label> <br>
                             <input type="text" id="user" name="user" required>
                         </div>
 
-                        <div>
-                            <label for="password">Password</label>
-                            <input type="password" id="password" name="password" required>
-                        </div>
-                        <div>
-                            <label for="password">Confirm Password</label>
+                       <div class="data">
+                            <label for="password">Password</label><br>
                             <input type="password" id="password" name="password" required>
                         </div>
 
-                        <div>
+                        <div class="data">
+                            <label for="password">Confirm Password</label><br>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+
+                        <div class="button-send">
                             <button type="submit">Send</button>
                         </div>
                     </div>
