@@ -9,7 +9,7 @@
 *{
     margin: 0;
 }
-main{
+.main-login{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ li{
 .nav-button:hover{
     transform: translateY(-0.2vw) ;
 }
-.container{
+.container-login{
     background-color: #F3F4F6;
     width: 40vw;
     padding: 1vw;

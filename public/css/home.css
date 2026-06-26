@@ -1,0 +1,18 @@
+.sidebar{
+    z-index: 1;
+    background-color:  #1E3A8A;
+    position: absolute;
+    width: 5vw;
+    height: 88vh;
+    margin: 1vw;
+    border-radius:1.5vw ;
+}
+.sidebar ul{
+    padding: 0;
+}
+.li-asidebar{
+    margin: 0;
+}
+.main-home{
+    height: 92vh;
+}
